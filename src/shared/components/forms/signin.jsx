@@ -6,8 +6,8 @@ const SignIn = (props) => {
     return (
         <section className="relative flex items-center justify-center overflow-hidden bg-no-repeat bg-cover h-dvh">
             <div className="max-w-[30rem] w-full px-4 md:px-6  mx-auto">
-                <div className="">
-                    <img src="/images/logo.svg" alt="" />
+                <div className="flex justify-center items-center mb-2">
+                    <img src="/images/Logo.png" alt="" className="w-52 " />
                 </div>
                 <div className="grid grid-cols-1 px-2 mb-10 2xl:mb-0 ">
                     <div className="relative">

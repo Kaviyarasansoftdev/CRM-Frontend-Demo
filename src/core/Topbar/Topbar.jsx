@@ -71,7 +71,7 @@ export default function Topbar(props) {
       <header className="sticky top-0 inset-x-0 shadow-md flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full bg-gradient-to-b from-cyan-400 to-cyan-200 border-b text-sm py-2 sm:py-3 lg:ps-4 rounded-b-xl">
         <nav className="flex items-center justify-between w-full px-4 mx-auto basis-full sm:px-6 md:px-8" aria-label="Global">
           <div className="rounded-md md:order-1 order-2">
-            <img src="/images/logo.svg" alt="" className="w-[120px] " />
+            <img src="/images/Logo.png" alt="" className="w-[120px] " />
           </div>
           <div className="lg:me-0 md:order-2 order-1">
             <a className="flex flex-row text-2xl font-bold md:ml-7 lg:flex-row-reverse dark:text-white" href="#" aria-label="">

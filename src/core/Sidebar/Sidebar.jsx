@@ -32,7 +32,7 @@ const CrmSidebar = (props) => {
         <div className="overflow-x-hidden fixed top-0 start-0 bottom-0 z-[60] w-full md:w-60 bg-cyan-400 border-gray-202 pt-3 pb-5 overflow-y-auto" >
           <div className="flex justify-between mx-4">
             <a href="#" aria-label="Brand">
-              <img src="/images/logo.svg" alt="" className="object-cover w-40" />
+              <img src="/images/Logo.png" alt="" className="object-cover w-40" />
             </a>
             <img className='cursor-pointer' src="/images/filter.svg" onClick={() => setvisible(false)} />
           </div>
