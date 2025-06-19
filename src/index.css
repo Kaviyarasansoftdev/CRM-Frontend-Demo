@@ -1,0 +1,148 @@
+@import url('/node_modules/@flaticon/flaticon-uicons/css/all/all.css');
+@import url('/node_modules/primereact/resources/themes/lara-light-cyan/theme.css');
+@import url('/node_modules/primereact/resources/primereact.min.css');
+@import "@fontsource/poppins";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins" !important;
+}
+
+.p-component {
+    font-family: "Poppins" !important;
+}
+
+.My-tab .p-tabview-panels{
+    display: none;
+}
+
+.p-inputtext {
+    font-family: "Poppins" !important;
+    font-size: 0.85rem;
+    padding: 0.65rem 0.65rem;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    padding: 0.75rem 1rem;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+    background: #ffffff;
+    border-color: #06b6d4 !important;
+    color: #06b6d4 !important;
+}
+
+input.p-inputtext{
+    padding: 8px 0 !important;
+}
+
+.p-multiselect .p-multiselect-label {
+    padding: 0.55rem 0.75rem;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    padding: 1rem !important;
+    border-width: 0 0 2px 0 !important;
+    border-color: transparent transparent #e5e7eb transparent !important;
+    text-wrap: nowrap;
+}
+
+.p-tabview .p-tabview-nav-btn.p-link {
+    background: #ffffff !important;
+    color: #06b6d4 !important;
+}
+
+.p-tabview .p-tabview-panels {
+    padding: 10px !important;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    padding: 0.85rem;
+    font-weight: 500;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: #ecfeff;
+    border-color: #ecfeff !important;
+    color: #0e7490 !important;
+}
+
+.p-column-filter-menu-button.p-column-filter-menu-button-open, .p-column-filter-menu-button.p-column-filter-menu-button-open:hover {
+    background: #2661d7 !important;
+    color: #ffffff !important;
+}
+
+.BL{
+    background: #77a1f5 !important;
+    color: #ffffff !important;
+}
+
+.STPL{
+    background: #76bfe9 !important;
+    color: #ffffff !important;
+}
+
+.DL{
+    background: #c764db !important;
+    color: #ffffff !important;
+
+}
+
+.PL{
+    background: #7e80f5 !important;
+    color: #ffffff !important;
+
+}
+
+.UCL{
+    background: #ec6e6e !important;
+    color: #ffffff !important;
+}
+
+.HL{
+    background: #26d78d !important;
+    color: #ffffff !important;
+}
+
+.LP{
+    background: #a97ef0 !important;
+    color: #ffffff !important;
+}
+
+td {
+    min-height: 50px !important;
+}
+
+tbody.custome-h{
+    max-height: calc(100vh - 350px) !important;
+    overflow-y: auto;
+}
+
+.p-overlaypanel-close.p-link{
+    background-color: #eb5959;
+    color: white;
+}
+
+.vibrate{
+    /* Start the shake animation and make the animation last for 1 second */
+    animation: vibrate 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes vibrate {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-10deg); }
+    20% { transform: rotate(10deg); }
+    30% { transform: rotate(-10deg); }
+    40% { transform: rotate(10deg); }
+    50% { transform: rotate(-10deg); }
+    60% { transform: rotate(10deg); }
+    70% { transform: rotate(-10deg); }
+    80% { transform: rotate(10deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
